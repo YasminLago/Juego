@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Juego de memoria</string>
+    <string name="edit_message"></string>
+    <string name="button_send">Hola</string>
+    <string name="button_toast">Toast</string>
+    <string name="action_settings">Setting</string>
+    <string name="botonStart">START</string>
+    <string name="botonNum0">0</string>
+    <string name="botonNum1">1</string>
+    <string name="botonNum2">2</string>
+    <string name="botonNum3">3</string>
+    <string name="botonNum4">4</string>
+    <string name="botonNum5">5</string>
+    <string name="botonNum6">6</string>
+    <string name="botonNum7">7</string>
+    <string name="botonNum8">8</string>
+</resources>
