@@ -2,26 +2,25 @@
 xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:rowCount="2"
-    android:gravity="center"
-android:columnCount="3"
-android:orientation="horizontal" >
+android:orientation="vertical" >
+    
 
-    <Button
-    android:id="@+id/botonStart"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/botonStart" />
+        <Button
+        android:id="@+id/botonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_gravity="center"
+        android:text="@string/botonStart" />
+
 
     <GridLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="-29dp"
-        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:rowCount="2"
         android:columnCount="3"
-        android:orientation="horizontal" >
+       >
     <Button
         android:id="@+id/botonNum0"
         android:layout_width="wrap_content"
