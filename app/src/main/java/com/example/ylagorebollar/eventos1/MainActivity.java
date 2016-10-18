@@ -49,3 +49,35 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+/*    final String[] seleccion = {"", "", "", "", "", ""};
+
+    //String [] rand = randomNumbers();
+    private Button start;
+    private Button num1;
+    
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_memoria);
+
+        start = (Button) findViewById(R.id.botonStart);
+        start.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View v) {
+                Toast.makeText(getApplicationContext(), randomNumbers().toString(), Toast.LENGTH_SHORT).show();
+            }
+
+
+        });
+    }
+
+
+    public String randomNumbers(){
+        int [] num = new int [5];
+        for (int x=0;x<num.length;x++) {
+            num[x] = (int) (Math.random() * 5) + 0;
+        }
+            String numeros = num[];
+        return numeros;
+    }
+
+}*/
